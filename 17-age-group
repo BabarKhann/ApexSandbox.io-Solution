@@ -3,10 +3,10 @@ public String ageGroup(Integer n) {
     if (n >= 22) {
         system.debug('Adult');
     }
-    if (n >= 15 && n <= 21) {
+    else if (n >= 15 && n <= 21) {
         system.debug('Youth');
     }
-    if (n >= 2 && n <= 14) {
+    else if (n >= 2 && n <= 14) {
         system.debug('Child');
     }
     else {
