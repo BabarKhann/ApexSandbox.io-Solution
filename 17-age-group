@@ -1,0 +1,15 @@
+public String ageGroup(Integer n) {
+    //code here
+    if (n >= 22) {
+        system.debug('Adult');
+    }
+    if (n >= 15 && n <= 21) {
+        system.debug('Youth');
+    }
+    if (n >= 2 && n <= 14) {
+        system.debug('Child');
+    }
+    else {
+        system.debug('Infant');
+    }
+}
