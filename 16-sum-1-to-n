@@ -1,9 +1,9 @@
 public Integer sumToN(Integer n) {
-    Integer total;
+    Integer sum;
 
     for (Integer = 1; i <= n; i++) {
-        total *= i;
+        total += i;
     }
 
-    return total;
+    return sum;
 }
