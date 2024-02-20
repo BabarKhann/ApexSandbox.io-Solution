@@ -1,8 +1,8 @@
 public Integer sumToN(Integer n) {
     Integer sum;
 
-    for (Integer = 1; i =< n; i++) {
-        sum = sum + i;
+    for (Integer i = 1; i <= n; i++) {
+        sum += i;
     }
 
     return sum;
