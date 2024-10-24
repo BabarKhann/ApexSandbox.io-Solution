@@ -1,8 +1,14 @@
 public Boolean isTypeAccount(sObject record)
 {
-    if (record != null && record.getSObjectType() == Account.getSObjectType()) {
+    if (record != null && record instanceof Account) {
         return true;
     }
 
     return false;
+
+    // if (record != null && record.getSObjectType() == Account.getSObjectType()) {
+    //     return true;
+    // }
+
+    // return false;
 }
